@@ -1,0 +1,1 @@
+# Moved requirements.txt to root for Render compatibility

@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+  font-family: 'DM Sans', system-ui, sans-serif;
+  background-color: #0A0A0F;
+  color: #F1F0F5;
+}
+
+html, body, #root {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  background: #0A0A0F;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+button, input, textarea {
+  font: inherit;
+}
+
+input::placeholder, textarea::placeholder {
+  color: #8B8A9B;
+}
+
+.shadow-glow {
+  box-shadow: 0 0 0 1px #7C3AED;
+}
+
+.transition-mellow {
+  transition: all 350ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+textarea {
+  resize: vertical;
+}
